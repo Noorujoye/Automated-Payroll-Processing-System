@@ -19,12 +19,7 @@ import java.util.UUID;
 @RequestMapping("/v1/payroll")
 @RequiredArgsConstructor
 public class PayrollController {
-    git init
-    git add README.md
-    git commit -m "first commit"
-    git branch -M main
-    git remote add origin https://github.com/Noorujoye/Automated-Payroll-Processing-System.git
-    git push -u origin main
+
     private final PayrollService payrollService;
 
     @PostMapping(value = "/upload", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
